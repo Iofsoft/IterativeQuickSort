@@ -7,7 +7,7 @@ t_stack * create(int size){
     return stack;
 }
 
-int push(t_stack *stack, int element){
+void push(t_stack *stack, int element){
     stack->top++;
     stack->items[stack->top] = element;
 }
