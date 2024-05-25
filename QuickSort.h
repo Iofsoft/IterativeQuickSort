@@ -10,7 +10,7 @@
         int *items;
     }t_stack;
 
-    #define DEC_CASES 5
+    #define DIGITS 5+1 // 5 Digitos do número mais um espaço.
 
     t_stack * create(int size);
     void push(t_stack *stack, int element);
