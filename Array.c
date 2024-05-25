@@ -2,7 +2,7 @@
 
 int* getArray( int *arrSize){
     scanf("%d", arrSize);
-    char input[*arrSize * DEC_CASES];
+    char input[*arrSize * DIGITS];
     int* numbers = (int*)malloc(sizeof(int) * *arrSize);
     //fflush(stdin);  // Percebi que em Linux o fflush nao funciona quando fui compilar no wsl. Achei uma funçào no stackOverflow.
     clean_stdin();
