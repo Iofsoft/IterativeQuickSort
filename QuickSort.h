@@ -13,7 +13,7 @@
     #define DEC_CASES 5
 
     t_stack * create(int size);
-    int push(t_stack *stack, int element);
+    void push(t_stack *stack, int element);
     int pop(t_stack *stack);
 
     void quicksort(int arr[], int arrSize);
